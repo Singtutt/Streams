@@ -58,6 +58,7 @@ public class Program {
             }
         }
     }
+
     private static void ageInformation(Scanner scan, List<Person> persons) {
         int initialAge = 0;
         int oldAge = Integer.MIN_VALUE;
@@ -78,5 +79,4 @@ public class Program {
                 "\n\tOldest Age: " + oldAge +
                 "\n\tYoungest Age: " + youngAge);
     }
-
 }
